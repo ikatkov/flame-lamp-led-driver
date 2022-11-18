@@ -1115,7 +1115,7 @@
     (uuid 31518452-8dcd-4719-9aa4-aad4159920e6)
     (property "Reference" "D2" (id 0) (at 149.86 130.0185 0))
     (property "Value" "1N4148" (id 1) (at 149.86 132.7936 0))
-    (property "Footprint" "Diode_SMD:D_SOD-80C" (id 2) (at 149.86 130.81 0)
+    (property "Footprint" "!my-kicad-library:D_4148_SMD" (id 2) (at 149.86 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (id 3) (at 149.86 135.255 0)
@@ -1125,7 +1125,7 @@
     (pin "2" (uuid e0130066-f120-45ab-8ca4-de7cd402c362))
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 48.26 139.065 0) (unit 2)
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 48.26 139.065 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 31a27a84-3176-4648-b7d9-e64c84d02aba)
     (property "Reference" "U1" (id 0) (at 48.26 130.0185 0))
@@ -1136,9 +1136,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (id 3) (at 48.26 139.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 63e362e6-557f-4202-9f5c-09b7b18d5a39))
-    (pin "6" (uuid 1f823103-f351-4b68-8aaa-eb3d475fcff1))
-    (pin "7" (uuid 8602cef4-24c2-430e-a5fb-2ace6f46c7e2))
+    (pin "1" (uuid d3d57924-54a6-421d-a3a0-a044fc909e88))
+    (pin "2" (uuid eab9c52c-3aa0-43a7-bc7f-7e234ff1e9f4))
+    (pin "3" (uuid 3e915099-a18e-49f4-89bb-abe64c2dade5))
   )
 
   (symbol (lib_id "Device:C") (at 139.7 55.88 270) (unit 1)
@@ -1360,7 +1360,7 @@
     (pin "1" (uuid 8c05f35a-2c61-4116-9bc2-b5ccc8c1fc08))
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 132.715 135.255 0) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 132.715 135.255 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ba156237-0f7a-4fb9-8f50-dad0b83870b9)
     (property "Reference" "U1" (id 0) (at 132.715 126.2085 0))
@@ -1371,9 +1371,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (id 3) (at 132.715 135.255 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8d36255-39f2-4f35-8289-912f9b0c1056))
-    (pin "2" (uuid f461d555-0b4d-4059-88f2-18a8058addd1))
-    (pin "3" (uuid 00fcf21f-e33f-41bb-9049-e9c682917300))
+    (pin "5" (uuid 07d160b6-23e1-4aa0-95cb-440482e6fc15))
+    (pin "6" (uuid a62609cd-29b7-4918-b97d-7b2404ba61cf))
+    (pin "7" (uuid 844d7d7a-b386-45a8-aaf6-bf41bbcb43b5))
   )
 
   (symbol (lib_id "Device:C") (at 189.23 86.995 0) (unit 1)
@@ -1646,7 +1646,7 @@
       (reference "D1") (unit 1) (value "MBRA340T3G") (footprint "Diode_SMD:D_SMA")
     )
     (path "/31518452-8dcd-4719-9aa4-aad4159920e6"
-      (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-80C")
+      (reference "D2") (unit 1) (value "1N4148") (footprint "!my-kicad-library:D_4148_SMD")
     )
     (path "/42bcded6-6802-4b1c-a9a7-30a9314a5805"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
@@ -1696,10 +1696,10 @@
     (path "/5a33b8f9-237d-4547-b191-ee16ea03d3b6"
       (reference "R6") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/ba156237-0f7a-4fb9-8f50-dad0b83870b9"
+    (path "/31a27a84-3176-4648-b7d9-e64c84d02aba"
       (reference "U1") (unit 1) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/31a27a84-3176-4648-b7d9-e64c84d02aba"
+    (path "/ba156237-0f7a-4fb9-8f50-dad0b83870b9"
       (reference "U1") (unit 2) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/deff39c2-636f-470a-a368-e7f79a821b58"
