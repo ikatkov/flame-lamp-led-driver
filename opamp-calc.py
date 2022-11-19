@@ -23,9 +23,9 @@ results = []
 # A = 1 + R2/R1
 for r1 in resistors:
     for r2 in resistors:
-        voltage = 0.035 * (1+r2/r1)
+        voltage = 0.0345 * (1+r2/r1)
         # target 2.725
-        if voltage > 2.72 and voltage < 2.73:
+        if voltage > 1.41 and voltage < 1.44: #target 1.425
             results.append(Combination(r1, r2, voltage))
 
 #results.sort(key=lambda x: x.calcVoltage())
